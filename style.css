@@ -1,0 +1,96 @@
+html{
+    border: 1px transparent white;
+}
+#main{
+    background-color: rgb(122, 228, 228);
+    margin:10px;
+    border-radius: 5px;
+}
+#title{
+    background: rgb(90, 240, 190);
+    text-align: center;
+    justify-content: center;
+    border:0;
+    margin-bottom: 10px;
+}
+#title h1{
+    padding-top:20px;
+    padding-bottom:0;
+    font-size: 50px;
+    font-weight: 800;
+    width:100%;
+}
+#title p{
+    padding-bottom: 10px;
+    padding-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+#img-div{
+    background: wheat;
+    padding: 20px;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    height: auto;
+    margin:0 auto;
+}
+figcaption{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#tribute{
+    text-align: center;
+}
+#tribute-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul{
+    max-width: 600px;
+    margin: auto;
+    line-height: 2;
+}
+li{
+    text-align: left;
+    font-size: 20px;
+}
+strong{
+    font-size: 25px;
+}
+blockquote{
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+#quo{
+    border: 5px solid white;
+    padding-top:100px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+#main p{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+a{
+    color:tomato;
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(83, 31, 151);
+}
+@media(max-width:600px){
+    h1{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
